@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 100" role="img" aria-labelledby="title">
+  <title id="title">Animated professional strengths visual</title>
+  <defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9de7ff"/><stop offset="1" stop-color="#c9f36a"/></linearGradient><style>.p{animation:p 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.s{animation:s 3.2s ease-in-out infinite}@keyframes p{50%{transform:translateY(-4px);opacity:1}}@keyframes s{50%{stroke-dashoffset:16}}@media(prefers-reduced-motion:reduce){.p,.s{animation:none}}</style></defs>
+  <path class="s" d="M31 71c14-23 28-23 42 0M107 71c14-23 28-23 42 0M69 77c14-28 28-28 42 0" fill="none" stroke="url(#a)" stroke-width="2" stroke-dasharray="7 7"/>
+  <g class="p" fill="#b7a8ff"><circle cx="50" cy="37" r="12"/><path d="M27 74c0-14 10-22 23-22s23 8 23 22Z"/></g><g class="p" fill="#9de7ff" style="animation-delay:.45s"><circle cx="130" cy="37" r="12"/><path d="M107 74c0-14 10-22 23-22s23 8 23 22Z"/></g><g class="p" fill="#c9f36a" style="animation-delay:.9s"><circle cx="90" cy="28" r="13"/><path d="M64 79c0-16 11-25 26-25s26 9 26 25Z"/></g>
+  <path d="M84 20l6-12 6 12 13 3-10 9 2 13-11-7-11 7 2-13-10-9Z" fill="none" stroke="#fff" stroke-width="2" opacity=".72"/>
+</svg>
