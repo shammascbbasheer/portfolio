@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 100" role="img" aria-labelledby="title">
+  <title id="title">Animated programming and web code visual</title>
+  <defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9de7ff"/><stop offset="1" stop-color="#b7a8ff"/></linearGradient><style>.t{animation:t 3s ease-in-out infinite}.n{animation:n 2s ease-in-out infinite}@keyframes t{50%{transform:translateX(12px);opacity:.3}}@keyframes n{50%{opacity:1;transform:scale(1.16)}}@media(prefers-reduced-motion:reduce){.t,.n{animation:none}}</style></defs>
+  <rect x="5" y="8" width="170" height="84" rx="14" fill="#101b32" stroke="url(#a)" stroke-opacity=".44"/><path d="M5 31h170" stroke="#9de7ff" stroke-opacity=".2"/><circle cx="20" cy="20" r="3" fill="#ff9eb5"/><circle cx="30" cy="20" r="3" fill="#c9f36a"/><circle cx="40" cy="20" r="3" fill="#9de7ff"/>
+  <path d="M30 53l10 9-10 9M52 72h25" fill="none" stroke="#c9f36a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M102 50h43M102 62h30M102 74h36" stroke="#9de7ff" stroke-width="4" stroke-linecap="round" stroke-opacity=".75" class="t"/><circle class="n" cx="154" cy="50" r="4" fill="#b7a8ff"/><circle class="n" cx="141" cy="74" r="4" fill="#c9f36a"/>
+</svg>
