@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 100" role="img" aria-labelledby="title">
+  <title id="title">Animated artificial intelligence certification visual</title>
+  <defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c9f36a"/><stop offset="1" stop-color="#b7a8ff"/></linearGradient><style>.b{animation:b 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.r{animation:r 7s linear infinite;transform-origin:84px 48px}@keyframes b{50%{transform:scale(1.1);opacity:1}}@keyframes r{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.b,.r{animation:none}}</style></defs>
+  <g class="r" fill="none" stroke="#9de7ff" stroke-opacity=".45" stroke-width="2" stroke-dasharray="4 7"><circle cx="84" cy="48" r="36"/><circle cx="84" cy="48" r="46"/></g><path d="M84 14l9 8 12-1 3 12 10 7-6 11 3 12-11 4-7 10-11-6-12 3-5-11-10-7 6-11-3-12 11-4 7-10Z" fill="#121f39" stroke="url(#a)" stroke-width="2"/>
+  <g class="b"><circle cx="84" cy="48" r="18" fill="#182d4b" stroke="#c9f36a" stroke-width="2"/><path d="M84 35l4 8 9 1-7 6 2 9-8-4-8 4 2-9-7-6 9-1Z" fill="#c9f36a"/></g><path d="M34 36h-16M34 62h-16" stroke="#9de7ff" stroke-width="3" stroke-linecap="round"/><circle class="b" cx="14" cy="36" r="4" fill="#b7a8ff"/><circle class="b" cx="14" cy="62" r="4" fill="#9de7ff"/>
+</svg>
