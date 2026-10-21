@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Large language model project visual</title>
+  <desc id="desc">A premium AI interface showing a prompt moving through a language model into a response.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#21173b"/><stop offset=".48" stop-color="#13152c"/><stop offset="1" stop-color="#090d1a"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#b7a8ff"/><stop offset=".52" stop-color="#9de7ff"/><stop offset="1" stop-color="#c9f36a"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#d6c9ff" stroke-opacity=".08"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="14" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .core { animation: core 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .token { animation: token 3.2s ease-in-out infinite; }
+      .token.two { animation-delay: 1s; }
+      .token.three { animation-delay: 2s; }
+      .blink { animation: blink 1.8s steps(2,end) infinite; }
+      @keyframes core { 0%,100% { transform: scale(.94); opacity: .7 } 50% { transform: scale(1.06); opacity: 1 } }
+      @keyframes token { 0% { transform: translateX(0); opacity: .1 } 40%,75% { transform: translateX(250px); opacity: 1 } 100% { transform: translateX(320px); opacity: 0 } }
+      @keyframes blink { 50% { opacity: .25 } }
+      @media (prefers-reduced-motion: reduce) { .core, .token, .blink { animation: none } }
+    </style>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <rect width="960" height="540" fill="url(#grid)"/>
+  <circle cx="480" cy="270" r="174" fill="#b7a8ff" fill-opacity=".08" filter="url(#glow)"/>
+  <g transform="translate(70 88)">
+    <rect width="246" height="364" rx="20" fill="#0e1428" fill-opacity=".88" stroke="#b7a8ff" stroke-opacity=".34"/>
+    <text x="28" y="44" fill="#b7a8ff" font-family="monospace" font-size="12" letter-spacing="2">PROMPT</text>
+    <rect x="28" y="78" width="190" height="116" rx="12" fill="#171f3b"/>
+    <text x="48" y="114" fill="#f0ecff" font-family="sans-serif" font-size="16">Explain how AI</text><text x="48" y="140" fill="#f0ecff" font-family="sans-serif" font-size="16">can make homes</text><text x="48" y="166" fill="#f0ecff" font-family="sans-serif" font-size="16">more useful.</text>
+    <text x="28" y="244" fill="#7e8aac" font-family="monospace" font-size="10">TOKENS / 018</text>
+    <rect x="28" y="270" width="190" height="8" rx="4" fill="#2b3150"/><rect x="28" y="270" width="128" height="8" rx="4" fill="#b7a8ff"/>
+    <rect x="28" y="302" width="150" height="8" rx="4" fill="#2b3150"/><rect x="28" y="302" width="92" height="8" rx="4" fill="#9de7ff"/>
+  </g>
+  <g transform="translate(644 88)">
+    <rect width="246" height="364" rx="20" fill="#0e1428" fill-opacity=".88" stroke="#9de7ff" stroke-opacity=".34"/>
+    <text x="28" y="44" fill="#9de7ff" font-family="monospace" font-size="12" letter-spacing="2">RESPONSE</text>
+    <rect x="28" y="78" width="190" height="116" rx="12" fill="#142438"/>
+    <text x="48" y="114" fill="#f1f8ff" font-family="sans-serif" font-size="15">Language models</text><text x="48" y="140" fill="#f1f8ff" font-family="sans-serif" font-size="15">turn ideas into</text><text x="48" y="166" fill="#f1f8ff" font-family="sans-serif" font-size="15">useful answers.</text>
+    <text x="28" y="244" fill="#7e9aad" font-family="monospace" font-size="10">CONFIDENCE / HIGH</text>
+    <rect x="28" y="270" width="190" height="8" rx="4" fill="#2b3d50"/><rect x="28" y="270" width="156" height="8" rx="4" fill="#9de7ff"/>
+    <rect x="28" y="302" width="150" height="8" rx="4" fill="#2b3d50"/><rect x="28" y="302" width="111" height="8" rx="4" fill="#c9f36a"/>
+  </g>
+  <g stroke="url(#accent)" stroke-width="2" stroke-dasharray="7 9" opacity=".48"><path d="M316 270H644"/><path d="M316 246C400 160 560 160 644 246" fill="none"/><path d="M316 294C400 380 560 380 644 294" fill="none"/></g>
+  <g transform="translate(480 270)">
+    <g class="core">
+      <circle r="82" fill="#131c3b" stroke="url(#accent)" stroke-width="2"/>
+      <circle r="62" fill="none" stroke="#b7a8ff" stroke-opacity=".35" stroke-dasharray="3 8"/>
+      <text y="-4" text-anchor="middle" fill="#fff" font-family="monospace" font-size="24" font-weight="700">LLM</text>
+      <text y="24" text-anchor="middle" fill="#9de7ff" font-family="monospace" font-size="9" letter-spacing="2">THINKING</text>
+    </g>
+  </g>
+  <g fill="#c9f36a"><circle class="token" cx="326" cy="270" r="5"/><circle class="token two" cx="326" cy="258" r="4"/><circle class="token three" cx="326" cy="282" r="4"/></g>
+  <text class="blink" x="480" y="502" text-anchor="middle" fill="#8491b2" font-family="monospace" font-size="10" letter-spacing="3">PROMPT → CONTEXT → RESPONSE</text>
+</svg>
