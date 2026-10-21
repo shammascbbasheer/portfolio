@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Animated frontend browser icon</title>
+  <defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9de7ff"/><stop offset="1" stop-color="#b7a8ff"/></linearGradient><style>.c{animation:c 2.2s ease-in-out infinite}.k{animation:k 3.2s ease-in-out infinite}@keyframes c{50%{stroke-dashoffset:22}}@keyframes k{50%{transform:translate(8px,5px)}}@media(prefers-reduced-motion:reduce){.c,.k{animation:none}}</style></defs>
+  <rect x="15" y="22" width="98" height="82" rx="12" fill="#111b32" stroke="url(#a)" stroke-width="2"/><path d="M15 42h98" stroke="#9de7ff" stroke-opacity=".3"/><circle cx="29" cy="32" r="3" fill="#ff9eb5"/><circle cx="39" cy="32" r="3" fill="#c9f36a"/><circle cx="49" cy="32" r="3" fill="#9de7ff"/>
+  <path class="c" d="M32 60l10 10-10 10M53 84h24" fill="none" stroke="#c9f36a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="42"/><path d="M85 58l11 8-12 4 4 11-8-5" fill="#9de7ff" stroke="#f2fbff" stroke-width="1" class="k"/>
+</svg>
