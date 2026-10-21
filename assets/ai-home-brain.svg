@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">AI HOME BRAIN smart-home visual</title>
+  <desc id="desc">A connected smart-home system with AI, IoT, robotics, and automation nodes.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop stop-color="#17274b"/><stop offset=".55" stop-color="#0e162b"/><stop offset="1" stop-color="#080d19"/></radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9de7ff"/><stop offset="1" stop-color="#c9f36a"/></linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#9bc7ff" stroke-opacity=".09"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="12" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .orbit { animation: orbit 12s linear infinite; transform-origin: 480px 270px; }
+      .breathe { animation: breathe 2.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .travel { animation: travel 4s ease-in-out infinite; }
+      @keyframes orbit { to { transform: rotate(360deg) } }
+      @keyframes breathe { 0%,100% { opacity: .45; transform: scale(.86) } 50% { opacity: 1; transform: scale(1.1) } }
+      @keyframes travel { 0% { stroke-dashoffset: 180 } 100% { stroke-dashoffset: 0 } }
+      @media (prefers-reduced-motion: reduce) { .orbit, .breathe, .travel { animation: none } }
+    </style>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <rect width="960" height="540" fill="url(#grid)"/>
+  <circle cx="480" cy="270" r="212" fill="none" stroke="#9bc7ff" stroke-opacity=".16" stroke-dasharray="3 12"/>
+  <circle class="breathe" cx="480" cy="270" r="150" fill="#8fdcff" fill-opacity=".07" filter="url(#glow)"/>
+  <g class="orbit" fill="none" stroke="url(#line)" stroke-opacity=".48" stroke-width="2" stroke-dasharray="7 9">
+    <ellipse cx="480" cy="270" rx="246" ry="112" transform="rotate(24 480 270)"/>
+    <ellipse cx="480" cy="270" rx="246" ry="112" transform="rotate(-28 480 270)"/>
+  </g>
+  <g stroke="url(#line)" stroke-opacity=".42" stroke-width="2" stroke-dasharray="180" class="travel">
+    <path d="M480 270L202 142M480 270L760 142M480 270L765 397M480 270L196 397"/>
+  </g>
+  <g font-family="monospace" font-size="12" letter-spacing="2">
+    <g transform="translate(104 100)"><rect width="178" height="74" rx="14" fill="#101a31" stroke="#9de7ff" stroke-opacity=".4"/><text x="20" y="28" fill="#9de7ff">HOME / SENSOR</text><text x="20" y="52" fill="#7184a5" font-size="10">comfort + context</text><circle class="breathe" cx="151" cy="38" r="6" fill="#c9f36a"/></g>
+    <g transform="translate(678 100)"><rect width="178" height="74" rx="14" fill="#101a31" stroke="#c9f36a" stroke-opacity=".38"/><text x="20" y="28" fill="#c9f36a">IoT / DEVICES</text><text x="20" y="52" fill="#7184a5" font-size="10">lights + climate</text><circle class="breathe" cx="151" cy="38" r="6" fill="#9de7ff"/></g>
+    <g transform="translate(104 366)"><rect width="178" height="74" rx="14" fill="#101a31" stroke="#b7a8ff" stroke-opacity=".45"/><text x="20" y="28" fill="#b7a8ff">ROBOTICS</text><text x="20" y="52" fill="#7184a5" font-size="10">action + motion</text><circle class="breathe" cx="151" cy="38" r="6" fill="#c9f36a"/></g>
+    <g transform="translate(678 366)"><rect width="178" height="74" rx="14" fill="#101a31" stroke="#9de7ff" stroke-opacity=".4"/><text x="20" y="28" fill="#9de7ff">AUTOMATION</text><text x="20" y="52" fill="#7184a5" font-size="10">routine engine</text><circle class="breathe" cx="151" cy="38" r="6" fill="#b7a8ff"/></g>
+  </g>
+  <g transform="translate(480 270)">
+    <circle r="78" fill="#111e38" stroke="url(#line)" stroke-width="2"/>
+    <circle class="breathe" r="60" fill="none" stroke="#9de7ff" stroke-opacity=".35" stroke-width="1"/>
+    <path d="M-34 3L0-27 34 3v38H-34Z M-12 41V14h24v27" fill="none" stroke="#f1f6ff" stroke-width="4" stroke-linejoin="round"/>
+    <text y="-2" text-anchor="middle" fill="#c9f36a" font-family="monospace" font-size="14" font-weight="700">AI HOME</text>
+    <text y="63" text-anchor="middle" fill="#8293b1" font-family="monospace" font-size="9" letter-spacing="2">BRAIN ONLINE</text>
+  </g>
+</svg>
