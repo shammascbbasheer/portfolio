@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Resume Analyser dashboard visual</title>
+  <desc id="desc">A dark AI dashboard with a resume match score and animated skill bars.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111b32"/>
+      <stop offset="0.55" stop-color="#101525"/>
+      <stop offset="1" stop-color="#090d18"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#9de7ff"/>
+      <stop offset="1" stop-color="#c9f36a"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="10" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#a8c7ff" stroke-opacity=".08"/>
+    </pattern>
+    <style>
+      .float { animation: float 5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .scan { animation: scan 3.8s ease-in-out infinite; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-8px) } }
+      @keyframes scan { 0%,100% { transform: translateY(0); opacity: .2 } 50% { transform: translateY(250px); opacity: .9 } }
+      @keyframes pulse { 0%,100% { opacity: .35; transform: scale(.85) } 50% { opacity: 1; transform: scale(1.12) } }
+      @media (prefers-reduced-motion: reduce) { .float, .scan, .pulse { animation: none } }
+    </style>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <rect width="960" height="540" fill="url(#grid)"/>
+  <circle class="pulse" cx="824" cy="92" r="72" fill="#b9ecff" opacity=".08" filter="url(#glow)"/>
+  <g class="float">
+    <rect x="74" y="58" width="812" height="424" rx="28" fill="#0b1120" fill-opacity=".84" stroke="#b9d4ff" stroke-opacity=".28"/>
+    <text x="112" y="106" fill="#96a8c9" font-family="monospace" font-size="13" letter-spacing="3">RESUME ANALYSER / AI MATCH</text>
+    <circle cx="830" cy="98" r="7" fill="#c9f36a"/>
+    <text x="112" y="156" fill="#f1f5ff" font-family="sans-serif" font-size="24" font-weight="700">Candidate fit report</text>
+    <rect x="112" y="185" width="270" height="228" rx="18" fill="#151e34" stroke="#a8c7ff" stroke-opacity=".18"/>
+    <circle cx="157" cy="232" r="20" fill="#a7d9ff" fill-opacity=".2" stroke="#a7d9ff" stroke-opacity=".65"/>
+    <path d="M148 232l7 7 13-16" fill="none" stroke="#c9f36a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="192" y="229" fill="#eef4ff" font-family="sans-serif" font-size="16" font-weight="700">Resume parsed</text>
+    <text x="192" y="251" fill="#8292b0" font-family="monospace" font-size="11">python_resume.pdf</text>
+    <text x="138" y="302" fill="#7f90ad" font-family="monospace" font-size="11">SKILLS DETECTED</text>
+    <text x="138" y="334" fill="#eaf1ff" font-family="sans-serif" font-size="14">Python</text><text x="138" y="365" fill="#eaf1ff" font-family="sans-serif" font-size="14">Django</text><text x="138" y="396" fill="#eaf1ff" font-family="sans-serif" font-size="14">Machine learning</text>
+    <circle class="pulse" cx="348" cy="330" r="4" fill="#c9f36a"/>
+    <rect x="420" y="185" width="424" height="228" rx="18" fill="#111a2d" stroke="#a8c7ff" stroke-opacity=".18"/>
+    <text x="454" y="225" fill="#899ab8" font-family="monospace" font-size="11" letter-spacing="1">JOB DESCRIPTION MATCH</text>
+    <circle cx="545" cy="316" r="67" fill="none" stroke="#253552" stroke-width="12"/>
+    <circle cx="545" cy="316" r="67" fill="none" stroke="url(#accent)" stroke-width="12" stroke-linecap="round" stroke-dasharray="300 421" transform="rotate(-90 545 316)"/>
+    <text x="545" y="313" text-anchor="middle" fill="#f3f7ff" font-family="sans-serif" font-size="31" font-weight="800">87%</text>
+    <text x="545" y="340" text-anchor="middle" fill="#8394b4" font-family="monospace" font-size="10">COMPATIBILITY</text>
+    <g transform="translate(665 268)">
+      <text y="0" fill="#8e9fbc" font-family="monospace" font-size="10">MATCHED SKILLS</text>
+      <rect y="20" width="135" height="7" rx="3" fill="#263650"/><rect class="pulse" y="20" width="112" height="7" rx="3" fill="#9de7ff"/>
+      <rect y="52" width="135" height="7" rx="3" fill="#263650"/><rect y="52" width="91" height="7" rx="3" fill="#c9f36a"/>
+      <rect y="84" width="135" height="7" rx="3" fill="#263650"/><rect y="84" width="119" height="7" rx="3" fill="#b7a8ff"/>
+    </g>
+  </g>
+  <rect class="scan" x="112" y="185" width="732" height="2" fill="url(#accent)" opacity=".3"/>
+</svg>
