@@ -31,6 +31,7 @@ checks = {
     "professional navigation": "linkedin.com/in/shammas-cb/" in html and 'class="nav-linkedin"' in html,
     "professional project layout": "Selected projects" in html and 'class="project-card project-resume' in html,
     "premium project visuals": all(asset in html for asset in ("assets/resume-analyser.svg", "assets/ai-home-brain.svg", "assets/llm-project.svg")) and "project-visual-image" in html,
+    "responsive project visuals": "aspect-ratio: 16 / 9" in css and "object-fit: contain" in css,
     "premium toolkit visuals": all(asset in html for asset in ("assets/skill-ai-ml.svg", "assets/skill-backend.svg", "assets/skill-frontend.svg", "assets/skill-data-nlp.svg", "assets/skill-tools.svg")) and html.count('class="skill-visual"') == 5,
     "premium skills directory visuals": all(asset in html for asset in ("assets/group-programming-web.svg", "assets/group-ai-data.svg", "assets/group-tools-collaboration.svg", "assets/group-professional-strengths.svg")) and html.count('class="skills-group-visual"') == 4,
     "premium journey visuals": all(asset in html for asset in ("assets/journey-internship.svg", "assets/journey-education.svg", "assets/journey-certification.svg", "assets/journey-learning.svg")) and html.count('class="timeline-visual"') == 4,
