@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Animated artificial intelligence network icon</title>
+  <defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9de7ff"/><stop offset="1" stop-color="#c9f36a"/></linearGradient><style>.p{animation:p 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.o{animation:o 7s linear infinite;transform-origin:64px 64px}@keyframes p{50%{opacity:1;transform:scale(1.25)}}@keyframes o{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.p,.o{animation:none}}</style></defs>
+  <circle cx="64" cy="64" r="50" fill="#111b31" stroke="#9de7ff" stroke-opacity=".28"/>
+  <g class="o" fill="none" stroke="url(#a)" stroke-opacity=".55" stroke-dasharray="3 6"><ellipse cx="64" cy="64" rx="42" ry="18" transform="rotate(45 64 64)"/><ellipse cx="64" cy="64" rx="42" ry="18" transform="rotate(-45 64 64)"/></g>
+  <g fill="none" stroke="url(#a)" stroke-width="2"><path d="M64 64L30 31M64 64l35-33M64 64l35 33M64 64l-34 33"/></g>
+  <circle cx="64" cy="64" r="18" fill="#17294a" stroke="url(#a)" stroke-width="2"/><text x="64" y="69" text-anchor="middle" fill="#f4fbff" font-family="monospace" font-size="12" font-weight="700">AI</text>
+  <g fill="#c9f36a"><circle class="p" cx="30" cy="31" r="5"/><circle class="p" cx="99" cy="31" r="5"/><circle class="p" cx="99" cy="97" r="5"/><circle class="p" cx="30" cy="97" r="5"/></g>
+</svg>
