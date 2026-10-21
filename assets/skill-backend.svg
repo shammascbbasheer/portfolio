@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Animated backend server icon</title>
+  <defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b7a8ff"/><stop offset="1" stop-color="#9de7ff"/></linearGradient><style>.s{animation:s 2.8s ease-in-out infinite}.d{animation:d 1.8s ease-in-out infinite}@keyframes s{50%{stroke-opacity:1;transform:translateY(-2px)}}@keyframes d{50%{opacity:.25}}@media(prefers-reduced-motion:reduce){.s,.d{animation:none}}</style></defs>
+  <rect x="20" y="23" width="88" height="28" rx="8" fill="#121f3a" stroke="url(#a)" stroke-width="2" class="s"/><rect x="20" y="57" width="88" height="28" rx="8" fill="#101a31" stroke="url(#a)" stroke-width="2" class="s"/><path d="M42 98h44M64 85v13" fill="none" stroke="#9de7ff" stroke-width="2"/>
+  <circle class="d" cx="34" cy="37" r="4" fill="#c9f36a"/><circle class="d" cx="34" cy="71" r="4" fill="#9de7ff"/><path d="M51 37h38M51 71h27" stroke="#c1d5fa" stroke-opacity=".72" stroke-width="3" stroke-linecap="round"/><path d="M48 96l-5 5 5 5M80 96l5 5-5 5" fill="none" stroke="#c9f36a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
